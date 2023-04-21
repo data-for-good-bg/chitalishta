@@ -7,13 +7,8 @@
     s:telephone "0879857506", "08882272949" ;
     s:location wd:Q4197371 ;
     s:url <https://chitalishta.com/index.php?act=community&do=detail&id=3736&reg_num=3706> ;
-    s:hasOfferCatalog <chitalishte/3706/form/2021> ;
 .
-
-<>
 
 #PUML
 
 s:url a puml:InlineProperty .
-
-<form/>
