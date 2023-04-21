@@ -9,6 +9,27 @@
     s:url <https://chitalishta.com/index.php?act=community&do=detail&id=3736&reg_num=3706> ;
 .
 
+wd:Q4197371 a s:City ;
+    s:additionalType "ADM3" ;
+    s:containedInPlace wd:Q2652942 ;
+.    
+
+wd:Q2652942 a s:AdministrativeArea ;
+    s:additionalType "ADM2" ;
+    s:name "Община Габрово" ;
+    s:containedInPlace wd:Q1007272 ;
+.
+
+wd:Q1007272 a s:AdministrativeArea ;
+    s:additionalType "ADM1" ;
+    s:name "Област Габрово" ;
+    s:containedInPlace wd:Q219 ;
+.    
+
+wd:Q219 a s:Country ;
+    s:name "България" ;
+.
+
 #PUML
 
 s:url a puml:InlineProperty .
