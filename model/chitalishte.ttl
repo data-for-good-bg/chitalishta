@@ -10,6 +10,7 @@
 .
 
 wd:Q4197371 a s:City ;
+    s:name "Иглика" ;
     s:additionalType "ADM3" ;
     s:containedInPlace wd:Q2652942 ;
 .    
