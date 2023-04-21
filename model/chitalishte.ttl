@@ -13,7 +13,16 @@ wd:Q4197371 a s:City ;
     s:name "Иглика" ;
     s:additionalType "ADM3" ;
     s:containedInPlace wd:Q2652942 ;
-.    
+    s:geo <place/Q4197371/geo> ;
+.
+
+wd:Q4197371 puml:right <place/Q4197371/geo> .
+
+<place/Q4197371/geo> a s:GeoCoordinates ;
+    s:latitude 45.6 ;
+    s:longtitude 22.3 ;
+    s:elevation 123 ;
+.
 
 wd:Q2652942 a s:AdministrativeArea ;
     s:additionalType "ADM2" ;
