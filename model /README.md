@@ -78,7 +78,10 @@ grep "form" ../data/info_cards/3706.json
 "form[remark]",
 ```
 
-### An individual value 
+### An individual observation
+
+Using W3C Cube ontology 
+ex: https://gitlab.ontotext.com/ontotext/company-graph/-/blob/master/data/WD/wd-mapping.rq#L86
 
 ### Bulgarian administrative entities 
 
