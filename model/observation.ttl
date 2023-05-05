@@ -1,0 +1,33 @@
+<chitalishte/3706/2021/main/activites/clubs> a qb:Observation ;
+    qb:dataSet <chitalishte/3706/2021> ;
+    :valueStr "НЯМА" ;
+    :observationType <chitalishte/observations/activities/clubs> ;
+    :date "2021"^^xsd:gYear ;
+.
+
+<chitalishte/3706/2021/regusers> a qb:Observation ;
+    qb:dataSet <chitalishte/3706/2021> ;
+    :valueNum 56 ;
+    :observationType <chitalishte/observations/regusers> ;
+.
+
+<chitalishte/3706/2021> a qb:DataSet ;
+    qb:DataStructureDefinition <chitalishte/DSD>  ;
+    :date "2021"^^xsd:gYear ;
+    :organization <chitalishte/3706> ;
+.
+<chitalishte/observations/activities/clubs> a skos:Concept ;
+    skos:prefLabel "Кръжоци, клубове и школи по изкуствата" ;
+    skos:broader <chitalishte/observations/activities> ;
+    skos:inScheme <chitalishte/observations> ;
+.
+
+<chitalishte/observations/activities> a skos:Concept ;
+    skos:prefLabel "Образователни дейности" ;
+    skos:inScheme <chitalishte/observations> ;
+.
+
+<chitalishte/observations> a skos:ConceptScheme ;
+    skos:prefLabel "Информационна карта за читалище" ;
+.
+

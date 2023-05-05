@@ -1,0 +1,7 @@
+<chitalishte/DSD> a qb:DSD ;
+    qb:component
+        [qb:dimension  :date   ;   qb:componentAttachment qb:DataSet],
+        [qb:dimension  :organization   ;   qb:componentAttachment qb:DataSet],
+        [qb:dimension  :observationType   ],
+        [qb:measure    :value ]
+    .

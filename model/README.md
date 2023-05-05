@@ -8,6 +8,15 @@ The base url is <http://graph.data-for.good.bg/resource/>
 
 ### The explanatory form in SKOS
 
+same fields everywhere
+
+```bash
+egrep -ho "\"form\[.*?\"" ../data/info_cards/* | sort | uniq -c | less -S
+```
+
+### Observations in CUBE
+
+
 ids
 
 ```
@@ -88,4 +97,16 @@ ex: https://gitlab.ontotext.com/ontotext/company-graph/-/blob/master/data/WD/wd-
 ## Building the visualisations
 
 `docker-compose -up` will create a diagram from each `ttl` file in this folder 
+
+
+# Tasks
+
+- Parse individual jsons with observations and load them in table HERE
+- Write OR transformation and transform individual obseravations into RDF following the CUBE model
+- Create a SKOS taxonomy in table HERE
+- Write transform 
+- Write competency questions (queries in text form)
+- Write a sparql query for each competency quesiton
+- Transform federated query so that it loads ALL of the cities and associated data
+
 
