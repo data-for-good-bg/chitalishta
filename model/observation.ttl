@@ -1,13 +1,12 @@
 <chitalishte/3706/2021/main/activites/clubs> a qb:Observation ;
     qb:dataSet <chitalishte/3706/2021> ;
-    :valueStr "НЯМА" ;
+    :value "НЯМА" ;
     :observationType <chitalishte/observations/activities/clubs> ;
-    :date "2021"^^xsd:gYear ;
 .
 
 <chitalishte/3706/2021/regusers> a qb:Observation ;
     qb:dataSet <chitalishte/3706/2021> ;
-    :valueNum 56 ;
+    :value 56 ;
     :observationType <chitalishte/observations/regusers> ;
 .
 

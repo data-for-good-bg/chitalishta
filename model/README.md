@@ -101,12 +101,14 @@ ex: https://gitlab.ontotext.com/ontotext/company-graph/-/blob/master/data/WD/wd-
 
 # Tasks
 
-- Parse individual jsons with observations and load them in table HERE
+- Parse individual jsons with observations and load them in table [HERE](https://docs.google.com/spreadsheets/d/1I4_AXQlygviE3HXBX_klZR64QEuie5Mo-gK17Lz8P78/edit#gid=1730432966)
 - Write OR transformation and transform individual obseravations into RDF following the CUBE model
-- Create a SKOS taxonomy in table HERE
-- Write transform 
-- Write competency questions (queries in text form)
-- Write a sparql query for each competency quesiton
+- Create a SKOS taxonomy in table [HERE](https://docs.google.com/spreadsheets/d/1I4_AXQlygviE3HXBX_klZR64QEuie5Mo-gK17Lz8P78/edit#gid=1653429745)
+- Write OntoRefine SPARQL transformation  
+
+- Write competency questions (queries in text form) [HERE](https://docs.google.com/spreadsheets/d/1I4_AXQlygviE3HXBX_klZR64QEuie5Mo-gK17Lz8P78/edit#gid=375110053)
+
 - Transform federated query so that it loads ALL of the cities and associated data
+- Write a sparql query for each competency quesiton
 
 
